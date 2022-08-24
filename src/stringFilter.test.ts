@@ -7,7 +7,7 @@ type testCases = {
 
 describe("replacing special characters with space characters in string", () => {
     const testCases: testCases[] = [
-    { input: ";hello?world!", expected: "hello world" }
+    { input: ";hello?world!", expected: " hello world " }
     ];
 
     testCases.map((tc) => {

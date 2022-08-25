@@ -1,8 +1,8 @@
-const regexReplace = new RegExp('[^a-zA-Z0-9]', 'g')
+const regexReplace = new RegExp('[^a-zA-Z0-9]', 'g');
 
 const stringFilter = (input:string) => {
 const newString = input.replace(regexReplace, " ");
-return newString
+return newString;
 };
 
 export default stringFilter;

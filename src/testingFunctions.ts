@@ -5,12 +5,12 @@ const sum = (input:number, input2:number) => {
 const neverRight = (input:string) => {
       if (typeof(input) !== String) {
         throw new Error('you are useless...');
-      }
-}
+      };
+};
 
-exports = {
+const functions = {
   sum,
   neverRight
-}
+};
 
-export default exports
+export default functions;

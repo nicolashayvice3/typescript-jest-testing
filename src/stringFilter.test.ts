@@ -21,5 +21,6 @@ describe("replacing special characters with space characters in string", () => {
 
             expect(actual).toBe(tc.expected);
         });
+        return 0;
     });
 });
